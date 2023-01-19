@@ -1,15 +1,16 @@
-from __future__ import print_function
+"""Topological Sort."""
+
 #     a
 #    / \
 #   b  c
 #  / \
 # d  e
-edges = {'a': ['c', 'b'], 'b': ['d', 'e'], 'c': [], 'd': [], 'e': []}
-vertices = ['a', 'b', 'c', 'd', 'e']
+edges = {"a": ["c", "b"], "b": ["d", "e"], "c": [], "d": [], "e": []}
+vertices = ["a", "b", "c", "d", "e"]
 
 
 def topological_sort(start, visited, sort):
-    """Perform topolical sort on a directed acyclic graph."""
+    """Perform topological sort on a directed acyclic graph."""
     current = start
     # add current to visited
     visited.append(current)
@@ -28,6 +29,7 @@ def topological_sort(start, visited, sort):
     # return sort
     return sort
 
-if __name__ == '__main__':
-    sort = topological_sort('a', [], [])
+
+if __name__ == "__main__":
+    sort = topological_sort("a", [], [])
     print(sort)
