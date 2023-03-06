@@ -543,8 +543,7 @@
   * [Euler Modified](maths/euler_modified.py)
   * [Eulers Totient](maths/eulers_totient.py)
   * [Extended Euclidean Algorithm](maths/extended_euclidean_algorithm.py)
-  * [Factorial Iterative](maths/factorial_iterative.py)
-  * [Factorial Recursive](maths/factorial_recursive.py)
+  * [Factorial](maths/factorial.py)
   * [Factors](maths/factors.py)
   * [Fermat Little Theorem](maths/fermat_little_theorem.py)
   * [Fibonacci](maths/fibonacci.py)
@@ -919,6 +918,8 @@
     * [Sol1](project_euler/problem_080/sol1.py)
   * Problem 081
     * [Sol1](project_euler/problem_081/sol1.py)
+  * Problem 082
+    * [Sol1](project_euler/problem_082/sol1.py)
   * Problem 085
     * [Sol1](project_euler/problem_085/sol1.py)
   * Problem 086
@@ -955,6 +956,8 @@
     * [Sol1](project_euler/problem_115/sol1.py)
   * Problem 116
     * [Sol1](project_euler/problem_116/sol1.py)
+  * Problem 117
+    * [Sol1](project_euler/problem_117/sol1.py)
   * Problem 119
     * [Sol1](project_euler/problem_119/sol1.py)
   * Problem 120
